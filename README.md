@@ -182,7 +182,37 @@ Edite as variáveis CSS em `src/styles/index.css`:
 npm run build
 ```
 
-### Plataformas Recomendadas:
+### 🚂 **Deploy no Railway**
+
+Este projeto está configurado para deploy automático no Railway:
+
+1. **Conecte seu repositório:**
+   - Acesse [railway.app](https://railway.app)
+   - Conecte com GitHub
+   - Selecione este repositório
+
+2. **Configuração automática:**
+   - O Railway detectará automaticamente como React app
+   - Usará `nixpacks.toml` para configuração otimizada
+   - Build e deploy serão automáticos
+
+3. **Variáveis de ambiente:**
+   - `PORT` - Definida automaticamente pelo Railway
+   - `NODE_ENV=production` - Para build otimizado
+
+4. **Scripts disponíveis:**
+   ```bash
+   npm run railway:start  # Comando específico para Railway
+   npm run serve          # Serve build localmente
+   ```
+
+### 📋 **Arquivos de Deploy Incluídos:**
+- `railway.json` - Configuração específica do Railway
+- `nixpacks.toml` - Build configuration (Nixpacks)
+- `Dockerfile` - Alternativa com Docker
+- `.env.example` - Template de variáveis de ambiente
+
+### Outras Plataformas:
 - **Vercel** - Deploy automático
 - **Netlify** - Deploy contínuo
 - **GitHub Pages** - Hospedagem gratuita
