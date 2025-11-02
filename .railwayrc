@@ -1,0 +1,11 @@
+# Railway Build Configuration
+# Este arquivo garante que o Railway detecte corretamente o projeto React
+
+# Build command
+BUILD_CMD="npm run build"
+
+# Start command  
+START_CMD="npx serve -s build -p $PORT"
+
+# Node version
+NODE_VERSION="18"
