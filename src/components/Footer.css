@@ -228,16 +228,16 @@
     padding: 6px 12px;
     border-radius: 10px;
   }
-  
+
   .footer-logo-img {
     height: 36px;
     margin-right: -8px;
   }
-  
+
   .footer-logo h2 {
     font-size: 1.5rem;
   }
-  
+
   .footer-content {
     grid-template-columns: 1fr;
     gap: 2rem;
